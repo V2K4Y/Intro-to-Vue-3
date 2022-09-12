@@ -53,6 +53,7 @@ app.component('review-form', {
         recommend: this.recommend // solution
 
       }
+      console.log(productReview)
       this.$emit('review-submitted', productReview)
 
       this.name = ''

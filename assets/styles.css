@@ -88,6 +88,39 @@ li {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
+/* .fd:nth-child(odd){
+  float: center;
+  background-color: #26242c;
+  color: white;
+  border-bottom: #5c5f5f 1px solid;
+  margin-bottom: 0px;
+}
+
+.fd:nth-child(even){
+  float: center;
+  background-color: rgb(51, 48, 48);
+  color: white;
+  padding: 1rem;
+  border-bottom: #5c5f5f 2px solid;
+  margin-bottom: 0px;
+} */
+
+.fd{
+  border-bottom: #5d5e55 1px solid;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #1f2124;
+}
+
+.review-list{
+  /* padding: 0px; */
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  /* border-bottom: #5c5f5f 1px solid; */
+}
+
 .out-of-stock-img {
   opacity: 0.5;
 }

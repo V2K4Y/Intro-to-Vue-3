@@ -10,8 +10,9 @@ app.component('review-list', {
   `
   <div class="review-container">
   <h3>Reviews:</h3>
-    <ul>
-      <li v-for="(review, index) in reviews" :key="index">
+    <ul class="review-list">
+      <li v-for="(review, index) in reviews" :key="index"
+      class = "fd">
         {{ review.name }} gave this {{ review.rating }} stars
         <br/>
         "{{ review.review }}"
@@ -22,5 +23,5 @@ app.component('review-list', {
       </li>
     </ul>
   </div>
-`
+`,
 })
